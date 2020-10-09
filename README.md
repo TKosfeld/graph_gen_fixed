@@ -1,7 +1,5 @@
 # GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Model
-This repository is the official PyTorch implementation of GraphRNN, a graph generative model using auto-regressive model.
-
-[Jiaxuan You](https://cs.stanford.edu/~jiaxuan/)\*, [Rex Ying](https://cs.stanford.edu/people/rexy/)\*, [Xiang Ren](http://www-bcf.usc.edu/~xiangren/), [William L. Hamilton](https://stanford.edu/~wleif/), [Jure Leskovec](https://cs.stanford.edu/people/jure/index.html), [GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Model](https://arxiv.org/abs/1802.08773) (ICML 2018)
+This repository is a patched PyTorch implementation of GraphRNN, a graph generative model using auto-regressive model.
 
 ## Installation
 Install PyTorch following the instuctions on the [official website](https://pytorch.org/). The code has been tested over PyTorch 0.2.0 and 0.4.0 versions.
@@ -79,8 +77,4 @@ The training, testing and generated graphs are saved at 'graphs/'.
 One can visualize the generated graph using the function `utils.load_graph_list`, which loads the
 list of graphs from the pickle file, and `util.draw_graph_list`, which plots the graph using
 networkx. 
-
-
-## Misc
-Jesse Bettencourt and Harris Chan have made a great [slide](https://duvenaud.github.io/learn-discrete/slides/graphrnn.pdf) introducing GraphRNN in Prof. David Duvenaud’s seminar course [Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/).
 
